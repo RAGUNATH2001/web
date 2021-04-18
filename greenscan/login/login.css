@@ -1,0 +1,37 @@
+body{
+    outline: 20px 30px 40px 50px;
+    padding:10% 20% 20% 30%;
+
+}
+fieldset{
+    width:200px;
+    text-align: center;
+    color:red;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+input[type=text]:focus{
+    color:rgb(0, 255, 55);
+    background-color: rgb(196, 219, 157);
+    
+}
+input[type=text]{
+    width:200px;
+    height: 20px;
+}
+.nav{
+    position: relative;
+    width: 200px;
+}
+.if{
+    position:absolute;
+    top:20%;
+    left:700px;
+    width: 50%;
+    height: 30%;
+    
+}
